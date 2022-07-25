@@ -73,6 +73,9 @@
 		362420E3288E30370078D823 /* tar */ = {isa = PBXFileReference; lastKnownFileType = file; path = tar; sourceTree = "<group>"; };
 		362420E5288E30370078D823 /* tail.mk */ = {isa = PBXFileReference; lastKnownFileType = text; path = tail.mk; sourceTree = "<group>"; };
 		362420E8288E30370078D823 /* GteSandbox.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = GteSandbox.xcscheme; path = ../../GteSandbox.xcodeproj/xcshareddata/xcschemes/GteSandbox.xcscheme; sourceTree = "<group>"; };
+		362420FF288E32180078D823 /* demo_data.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = demo_data.c; sourceTree = "<group>"; };
+		36242100288E32180078D823 /* demo_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = demo_data.h; sourceTree = "<group>"; };
+		36242101288E32180078D823 /* gte.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gte.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,9 @@
 		362420C6288E30360078D823 /* GteSandbox */ = {
 			isa = PBXGroup;
 			children = (
+				362420FF288E32180078D823 /* demo_data.c */,
+				36242100288E32180078D823 /* demo_data.h */,
+				36242101288E32180078D823 /* gte.h */,
 				362420C7288E30360078D823 /* main.c */,
 				362420C9288E30360078D823 /* main.h */,
 				362420CA288E30360078D823 /* main.rez */,
