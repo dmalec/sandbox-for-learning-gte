@@ -101,7 +101,7 @@ MD_SRCS=
 # Then, during the copy phase, myIconFile will be copied into the Icons
 # folder and a folder newDir will be created and anotherFile will be copied
 # into there.
-COPYDIRS=
+COPYDIRS=extra
 
 # If you want to copy one or more files or directories to the boot disk
 # image, add the root directory to this variable.  Any directories under

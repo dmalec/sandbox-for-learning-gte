@@ -9,8 +9,6 @@ The code currently fills the background with a tile and draws a sprite which can
 ![image filled with rainbow II tiles and a single square sprite](screenshots/Screen_Shot_2022-07-24.png)
 
 
-Hitting enough keys will eventually result in the program crashing - this is what I am currently trying to debug.
-
 # Dev Environment
 
 * [Xcode](https://developer.apple.com/xcode/) 12.4 on macOS Catalina 10.15.7
@@ -22,4 +20,4 @@ Hitting enough keys will eventually result in the program crashing - this is wha
 # Runtime Environment
 
 * System 6.0.1 as included in [Apple2GSBuildPipeline](https://github.com/jeremysrand/Apple2GSBuildPipeline)
-* [GTE / Tool 160 Beta 1 (KansasFest Edition)](https://github.com/lscharen/iigs-game-engine/releases/tag/v1.0.0-beta.1) by Lucas Scharenbroich
+* [GTE / Tool 160 Beta 1 (KansasFest Edition) - Orca C Demo Branch Build](https://github.com/lscharen/iigs-game-engine/tree/create-orca-c-demo) by Lucas Scharenbroich

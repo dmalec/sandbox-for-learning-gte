@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		362420C8288E30360078D823 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 362420C7288E30360078D823 /* main.c */; };
-		362420CB288E30360078D823 /* main.rez in CopyFiles */ = {isa = PBXBuildFile; fileRef = 362420CA288E30360078D823 /* main.rez */; };
 		362420CD288E30360078D823 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 362420CC288E30360078D823 /* Makefile */; };
 		362420D0288E30360078D823 /* config.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = 362420CF288E30360078D823 /* config.txt */; };
 		362420D2288E30360078D823 /* createDiskImage in CopyFiles */ = {isa = PBXBuildFile; fileRef = 362420D1288E30360078D823 /* createDiskImage */; };
@@ -42,7 +41,6 @@
 				362420E4288E30370078D823 /* tar in CopyFiles */,
 				362420E9288E30370078D823 /* GteSandbox.xcscheme in CopyFiles */,
 				362420D0288E30360078D823 /* config.txt in CopyFiles */,
-				362420CB288E30360078D823 /* main.rez in CopyFiles */,
 				362420D4288E30360078D823 /* head.mk in CopyFiles */,
 				362420DC288E30370078D823 /* orca-cc in CopyFiles */,
 				362420E0288E30370078D823 /* system601.2mg in CopyFiles */,
@@ -57,8 +55,6 @@
 		362420C0288E30360078D823 /* GteSandbox.shk */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = GteSandbox.shk; sourceTree = BUILT_PRODUCTS_DIR; };
 		362420C5288E30360078D823 /* doNotBuild */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = doNotBuild; sourceTree = BUILT_PRODUCTS_DIR; };
 		362420C7288E30360078D823 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		362420C9288E30360078D823 /* main.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
-		362420CA288E30360078D823 /* main.rez */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.rez; path = main.rez; sourceTree = "<group>"; };
 		362420CC288E30360078D823 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		362420CF288E30360078D823 /* config.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.txt; sourceTree = "<group>"; };
 		362420D1288E30360078D823 /* createDiskImage */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = createDiskImage; sourceTree = "<group>"; };
@@ -76,6 +72,8 @@
 		362420FF288E32180078D823 /* demo_data.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = demo_data.c; sourceTree = "<group>"; };
 		36242100288E32180078D823 /* demo_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = demo_data.h; sourceTree = "<group>"; };
 		36242101288E32180078D823 /* gte.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gte.h; sourceTree = "<group>"; };
+		36CAE7282892E96900CC5B17 /* Tool160 */ = {isa = PBXFileReference; lastKnownFileType = file; name = Tool160; path = extra/Tool160; sourceTree = "<group>"; };
+		36D3FADE2892CB480017BDF4 /* gte.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = gte.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,13 +109,13 @@
 		362420C6288E30360078D823 /* GteSandbox */ = {
 			isa = PBXGroup;
 			children = (
+				362420C7288E30360078D823 /* main.c */,
+				36242101288E32180078D823 /* gte.h */,
+				36D3FADE2892CB480017BDF4 /* gte.c */,
 				362420FF288E32180078D823 /* demo_data.c */,
 				36242100288E32180078D823 /* demo_data.h */,
-				36242101288E32180078D823 /* gte.h */,
-				362420C7288E30360078D823 /* main.c */,
-				362420C9288E30360078D823 /* main.h */,
-				362420CA288E30360078D823 /* main.rez */,
 				362420CC288E30360078D823 /* Makefile */,
+				36FBBF8428917A8800BC336B /* extra */,
 				362420CE288E30360078D823 /* make */,
 				362420E7288E30370078D823 /* Supporting Files */,
 			);
@@ -149,6 +147,14 @@
 				362420E8288E30370078D823 /* GteSandbox.xcscheme */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		36FBBF8428917A8800BC336B /* extra */ = {
+			isa = PBXGroup;
+			children = (
+				36CAE7282892E96900CC5B17 /* Tool160 */,
+			);
+			name = extra;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
